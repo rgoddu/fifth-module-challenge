@@ -1,3 +1,8 @@
+In this activity, I coded the script with jQuery & dayJS to add the functionalities listed below. 
+
+The bootstrap HTML and CSS stylesheet were given as a template. 
+
+
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
