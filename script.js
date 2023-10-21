@@ -24,9 +24,9 @@ function loadPrevious(){
 }
 function setTime(){
     var timeDisplay = $("#currentDay")
-    timeDisplay.text(dayjs().format("MMMM DD, YYYY HH:mm:ss"))
+    timeDisplay.text(dayjs().format("dddd: MMMM DD, YYYY HH:mm:ss"))
     setInterval(() => {
-        timeDisplay.text(dayjs().format("MMMM DD, YYYY HH:mm:ss"))
+        timeDisplay.text(dayjs().format("dddd: MMMM DD, YYYY HH:mm:ss"))
     }, 1000);
 }
 function currentBlockColor(){
